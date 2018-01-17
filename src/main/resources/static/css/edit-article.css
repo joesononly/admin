@@ -1,0 +1,228 @@
+/*
+* @Author: joesn
+* @Date:   2018-01-06 12:23:14
+* @Last Modified by:   joesn
+* @Last Modified time: 2018-01-06 18:40:16
+*/
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #ff9d00;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+}
+.showCover {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.showCover i {
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.showCover:hover i {
+    transform: rotate(360deg);
+}
+
+.showCover i {
+    line-height: 450px;
+    color: #fff;
+}
+
+.set_index {
+    height: 480px;
+    background: url(../images/post/new_notes/nn_v2/page_bg.jpg) center 0 no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.set_page {
+    display: block;
+}
+.set_page {
+    margin: 0 auto;
+    position: relative;
+}
+
+.set_page a.set_add {
+    width: 67px;
+    height: 67px;
+    float: left;
+    margin-right: 20px;
+    background: url(../image/tools/nn_sprite_v29.png) -10px 0 no-repeat;
+    position: relative;
+}
+
+.imageInput {
+    width: 100%;
+    height: 40px;
+    opacity: 0;
+    position: absolute;
+    z-index: 10;
+}
+.clear {
+    clear: both;
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.set_title {
+    width: 100%;
+    padding: 20px 20px;
+    display: block;
+    position: relative;
+    height: 60px;
+    background: #fff;
+    border: 1px solid #fff;
+    line-height: 20px;
+    z-index: 1;
+    box-shadow: 0 2px 2px rgba(110,98,85,.5);
+    transition: .2s linear 0s;
+    -webkit-transition: .2s linear 0s;
+    -moz-transition: .2s linear 0s;
+    -o-transition: .2s linear 0s;
+}
+.set_title input {
+    width: 868px;
+    height: 20px;
+    line-height: 22px;
+    font-size: 18px;
+    border: 0;
+    color: #666;
+    float: left;
+    outline: none;
+}
+.add-btn {
+    color: #333;
+    display: block;
+    font-size: 18px;
+    color: #333;
+    line-height: 28px;
+}
+.add-btn>i {
+    float: left;
+    margin-right: 10px;
+    width: 28px;
+    height: 28px;
+    background: url(../image/tools/nn_sprite_v29.png) no-repeat -178px -29px;
+}
+
+.j-title{
+    height: 50px;
+    background: rgba(217, 217, 217,0.7);
+}
+.j-title p {
+    height: 50px;
+    font-size: 24px;
+    padding: 0px 0px 0px 15px;
+    line-height: 50px;
+}
+.j-box{
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.j-box .col-md-8 .row{
+    margin-top: 15px;
+}
+.zhi{
+    margin-left: 15px;
+}
+.j-box .col-md-8 .row input{
+    margin-left: 15px;
+}
+.j-active-gist{
+    height: 80px;
+}
+input[name='title']{
+    width: 80%;
+}
+textarea[name='gist']{
+    width: 80%;
+    min-width: 80%;
+    max-width: 80%;
+    height: 200px;
+    margin-left: 15px;
+}
+
+.j-active-img{
+    width: 100%;
+    background: rgba(217, 217, 217,0.7);
+}
+.j-upload-button{
+    height: 40px;
+    text-align: center;
+    background: rgba(0,191,255,1);
+    line-height: 40px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.j-report{
+    height: 40px;
+    text-align: center;
+    background: rgba(0,191,255,1);
+    line-height: 40px;
+    border-radius: 5px;
+}
+.j-see{
+    height: 40px;
+    text-align: center;
+    background: rgba(0,191,255,1);
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.j-upload-image-box{
+    width: 100%;
+    background: rgba(217, 217, 217,0.7);
+}
+.j-upload-image-box img{
+    width: 100%;
+}
+.j-uploadButton{
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    width: 100%;
+    background: rgba(0,191,255,1);
+    text-align: center;
+    border-bottom-right-radius:6px;
+    cursor: pointer;
+}
+.j-select{
+    width: auto;
+    height: 40px;
+    padding: 0 40%;
+    margin: 0;
+    text-align: center;
+}
+.j-select option{
+    text-align: center;
+}
+.add-save{
+    margin-top: 5px;
+    display: block;
+    width: 138px;
+    height: 32px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 16px;
+    line-height: 32px;
+    transition: all .1s linear;
+}
+.add-save:hover{
+    background: #ff9d00;;
+    color:#fff;
+}
+.btn-list > .row{
+}

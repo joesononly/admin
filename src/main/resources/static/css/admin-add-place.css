@@ -1,0 +1,101 @@
+/*
+* @Author: joesn
+* @Date:   2018-01-08 10:47:35
+* @Last Modified by:   joesn
+* @Last Modified time: 2018-01-08 19:29:12
+*/
+
+body{
+	background: #f1f2f7;
+}
+.in-box{
+	width: 100%;
+	background: #fff;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.in-box>h4{
+	padding: 15px 15px;
+	margin: 0px;
+	border-bottom: solid 1px #f1f2f7;
+}
+.in-box>input{
+	width: 100%;
+	height: 40px;
+	padding: 0px 15px;
+	border:none;
+	outline: none;
+}
+.in-box>textarea{
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 80px;
+	min-height: 80px;
+	height: 80px;
+	padding: 10px 15px 10px 15px;
+	border:none;
+	outline: none;
+}
+.upload-img{
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	padding:50px 15px 0px 15px;
+}
+.upload-img>i{
+	transition: all 0.5s ease-in-out 0s;
+}
+.upload-img>i:hover{
+	transform: rotate(360deg);
+}
+.box-title>h4{
+	padding:15px;
+	margin: 0px;
+	position: absolute;
+}
+.upload-btn{
+	position: absolute;
+	margin-top: 15px;
+	left: 90%;
+}
+.upload-btn>i{
+	position: absolute;
+}
+.upload-hidden{
+	opacity: 0;
+	position: absolute;
+	width: 14px;
+}
+.show-area{
+	max-height: 350px;
+	padding-bottom: 15px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+.show-area:hover{
+	overflow-y:auto;
+	padding-right: 0px;
+}
+.show-image{
+	height: 300px;
+}
+.show-item{
+	padding: 5px;
+	transition: all 0.5s ease-in-out 0s;
+	/*width: 200px;*/
+}
+.show-item:hover{
+	transform:scale(1.05);
+	z-index: 1;
+}
+.show-item>img{
+	width: 100%;
+}
+
+/*景区地点区*/
+.show-map{
+	width: 100%;
+	height: 300px;
+}

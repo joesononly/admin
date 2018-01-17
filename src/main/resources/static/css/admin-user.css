@@ -1,0 +1,65 @@
+/*
+* @Author: joesn
+* @Date:   2018-01-07 21:23:02
+* @Last Modified by:   joesn
+* @Last Modified time: 2018-01-07 22:33:57
+*/
+html,body{
+	/*background: #f5f5f5;*/
+	/*height: auto;*/
+	/*overflow: hidden;*/
+}
+.user-char{
+	/*padding:0px;*/
+	box-shadow: 1px 2px 1px #d9d9d9;
+	/*margin: 0px 15px;*/
+	border: solid 1px #E5E2E2;
+	text-align: center;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.char-big{
+	height: 400px;
+}
+.hot-article-5{
+	box-shadow: 1px 2px 1px #d9d9d9;
+	/*margin: 0px 15px;*/
+	border: solid 1px #E5E2E2;
+	background: #fff;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.hot-article-5 h4{
+	text-align: left;
+	background: #f5f5f5;
+	padding-left: 15px;
+	font-size: 19px;
+	line-height: 37px;
+	height: 37px;
+	margin:0px;
+	border-bottom: solid 1px #d9d9d9;
+}
+
+
+/*·ÖÒ³*/
+.pagecount{
+    text-align: center;
+    margin-bottom: 5px;
+    padding:15px 15px 20px 0;
+}
+.pagecount span{
+    display: inline-block;
+    background: #ddd;
+    margin:0 0 0 5px;
+    width:40px;
+    text-align: center;
+    padding:2px 8px 2px 8px;
+    border:1px solid #eee;
+    color: #666;
+}
+.pagecount span a{
+    color:#333;
+}
+.pagecount span a:hover{
+    text-decoration: underline;
+}

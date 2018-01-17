@@ -1,0 +1,86 @@
+/*
+* @Author: joesn
+* @Date:   2017-12-18 10:17:19
+* @Last Modified by:   joesn
+* @Last Modified time: 2017-12-18 10:21:16
+*/
+.title {
+	font-size: 14px;
+	height: 40px;
+	width: 100%;
+	border: none;
+	padding-left: 15px;
+	outline: none;
+}
+
+.title:hover {
+	outline: none;
+}
+
+.commit {
+	color: #ffffff;
+	border-color: #0098f7;
+	background: #0098f7;
+	margin: 15px;
+}
+
+.commit:hover {
+	color: #ffffff;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+}
+
+.j-article-item {
+	height: 88px;
+}
+
+.j-article-item-img {
+	height: 88px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.j-article-item-img img {
+	width: 100%;
+}
+
+.j-article-item-img:hover .j-article-img-tip {
+	display: block;
+}
+
+.j-article-img-tip {
+	display: none;
+	cursor: pointer;
+	width: 100%;
+	height: 88px;
+	position: absolute;
+	background: rgba(102, 102, 102, .5);
+	top: 0px;
+	text-align: center;
+	line-height: 110px;
+}
+
+.j-article-img-tip i {
+	transition: all 0.5s ease-in-out 0s;
+}
+
+.j-article-img-tip:hover i {
+	transform: rotate(360deg);
+}
+
+.j-article-item-context p {
+	font-size: 10px;
+}
+
+.j-article-gist {
+	font-size: 10px;
+	width: 420px;
+	height: 50px;
+	max-width: 420px;
+	max-height: 50px;
+	min-width: 420px;
+	min-height: 50px;
+}

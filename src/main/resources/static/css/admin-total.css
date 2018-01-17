@@ -1,0 +1,43 @@
+/*
+* @Author: joesn
+* @Date:   2018-01-07 18:28:06
+* @Last Modified by:   joesn
+* @Last Modified time: 2018-01-07 20:15:53
+*/
+.show-info-box{
+	
+}
+.show-info-box>a{
+	text-decoration: none;
+}
+.show-info-box>a>ul{
+	width: 100%;
+	padding:0px;
+	box-shadow: 1px 2px 1px #d9d9d9;
+	/*margin: 0px 15px;*/
+	text-align: center;
+	border-radius: 5px;
+}
+.show-info-box>a>ul>li{
+	list-style: none;
+}
+.badge{
+	display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+	background:#FD1E50;
+	position: absolute;
+	right:0;
+}
+.show-user-line{
+	height: 400px;
+}
